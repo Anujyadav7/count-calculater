@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.counter-value{
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+#increment-btn,#decrement-btn, #reset-btn{
+    background-color: rgba(0, 191, 255, 0.79);
+    height: 50px;
+    width: 75px;
+    font-size: 2.5rem;
+    padding: 4px,16px;
+    cursor: pointer;
+    line-height: 10px;
+    border: 1px solid black;
+    border-radius: 4px;   
+}
+
+#increment-btn{
+    background-color: rgba(99, 189, 10, 0.789);
+}
+
+#decrement-btn{
+    background-color: rgba(171, 16, 16, 0.8);
+}
+
+.bynum{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+ .addednum{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin: 16px 8px;   
+}
+
+#reset-btn{
+    margin-top: 50px;
+    width: 120px;
+    border-radius: 10px;
+}
